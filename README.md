@@ -1,19 +1,19 @@
 # Image Batch Processor
 
-Takes a folder of images, applies a filter, resizes them, and saves the results as JPEGs. Runs on multiple threads so it processes everything at once.
+Accepts an images folder, applies a filter, resizes images, and saves output images as .jpgs. Processes all data in parallel by using multithreading.
 
-## Install
+## Installation
 
-You need Python 3.7+ and Pillow. Install Pillow with:
+Requirements are Python 3.7+ and Pillow library. To install Pillow library, run:
 
 pip install Pillow
 
-## How to use
+## Usage
 
-Run the script and answer the prompts. You can type a folder name, a full path, or just press Enter to use the defaults.
+Execute the code and follow instructions from the console. As an input folder you may specify its name, complete path, or leave it blank to accept default options.
 
-Filters you can pick from: blur, sharpen, grayscale, contour, none
+Filtering options: blur, sharpen, grayscale, contour, none
 
-Supported image types: jpg, jpeg, png, bmp, webp
+Image types accepted: jpg, jpeg, png, bmp, webp
 
-Processed files are saved as originalname_processed.jpg in your output folder.
+Output images' names are originalimagename_processed.jpg.
